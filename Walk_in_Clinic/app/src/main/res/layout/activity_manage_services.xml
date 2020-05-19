@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageServicesActivity">
+
+    <TextView
+        android:id="@+id/Services_Header"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="530dp"
+        android:background="#5C32B1D1"
+        android:bufferType="normal"
+        android:clickable="false"
+        android:shadowColor="#196A75"
+        android:text="@string/services_header"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/sethoscope_foreground" />
+
+    <EditText
+        android:id="@+id/enter_service_name"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/offered_by"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/service_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#7E24788F"
+        android:textCursorDrawable="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/offered_by"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="420dp"
+        android:text="@string/offered_by"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="69dp"
+        android:textSize="16sp"
+        android:textColor="#7E24788F"
+        android:textCursorDrawable="@color/colorAccent"
+        android:layout_marginEnd="69dp"
+        android:layout_marginStart="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_role"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="69dp">
+
+        <RadioButton
+            android:id="@+id/doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/doctor"
+            android:textColor="#BE24788F" />
+
+        <RadioButton
+            android:id="@+id/nurse"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/nurse"
+            android:textColor="#BE24788F" />
+
+        <RadioButton
+            android:id="@+id/staff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/staff"
+            android:textColor="#BE24788F" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="299dp"
+        android:layout_toStartOf="@+id/edit"
+        android:layout_toLeftOf="@+id/edit"
+        android:background="#5C32B1D1"
+        android:text="@string/add"
+        android:textColor="#BE24788F" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="300dp"
+        android:layout_toStartOf="@+id/delete"
+        android:layout_toLeftOf="@+id/delete"
+        android:background="#5C32B1D1"
+        android:text="@string/edit"
+        android:textColor="#BE24788F" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="300dp"
+        android:background="#5C32B1D1"
+        android:text="@string/delete"
+        android:textColor="#BE24788F" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginRight="69dp"
+        android:textColor="#BE24788F"
+        android:text="@string/service_name_requirement" />
+
+    <Button
+        android:id="@+id/ViewServices"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginRight="69dp"
+        android:textColor="#BE24788F"
+        android:background="#5C32B1D1"
+        android:text="@string/view_services" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/singleAppointmentLayout">
+
+    <TextView
+        android:id="@+id/app_day"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="fill_horizontal"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        android:textStyle=""
+        android:textColor="#0B8EF1"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:autoSizeTextType="none"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/app_time"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        android:textColor="#66BB6A"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingStart="10dp" />
+
+</RelativeLayout>

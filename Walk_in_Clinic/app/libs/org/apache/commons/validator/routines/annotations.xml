@@ -1,0 +1,5 @@
+<root>
+    <item name='org.apache.commons.validator.routines.EmailValidator'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

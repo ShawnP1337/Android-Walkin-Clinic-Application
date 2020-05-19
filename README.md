@@ -4,11 +4,11 @@
 ## TEAM MEMBERS
 | Name | Student Number |
 | --- | --- |
-| Bassel ABOU AHMAD | 300057335 |
-| Tate Sharp | 300013510 |
-| Nikita Bliumkin | 8752021|
-| Yury Semenov | 300008288 |
-|Shawn Pokharel |300062001|
+| Bassel ABOU AHMAD|
+| Tate Sharp |
+| Nikita Bliumkin |
+| Yury Semenov |
+|Sanchit Pokharel|
 
 ## FOR BEST RESULTS - PLEASE TEST USING PIXEL 2 API 29
 

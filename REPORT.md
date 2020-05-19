@@ -54,15 +54,6 @@ The application releases of the system should be delivered before 4th December 2
 
 The application should be able to run on Android 5.0 or above
 
-## Role Table
-
-| Name | Student Number | Contributions|
-| --- | --- |---|
-| Bassel ABOU AHMAD | 300057335 |**Dev 1:** GUI Design and implementation **Dev 2:** Admin functionality and Database Manipulation  **Dev 3:** GUI Design, Employee Functionality (Adding/Deleting Services, Employee Profile, Manage Clinic Working Hours) and Database Manipulation and implementation  **Dev 4:** GUI Desgin, All Patient functionality (Patient Clinic Search, Clinic Page and Patient Book Appointment), Database Manipulation and implementation |
-| Tate Sharp | 300013510 |**Dev 1:** Activity Connectivity **Dev 2:** UNIT Testing and CircleCi integration **Dev 3:** GUI Design for Employee Manage Clinic Working Hours and UNIT Testing  **Dev 4:** CircleCi Github Button and UNIT Testing |
-| Nikita Bliumkin | 8752021|**Dev 1:** Database Creation  **Dev 2:** Database table and Column Update  **Dev 3:** Database table and Column Update **Dev 4:** Database table and Column Update |
-| Yury Semenov | 300008288 |**Dev 1:** Github repo creation, Activity connectivity **Dev 2:** CircleCI integration **Dev 3:** Validation **Dev 4:** Final Report |
-|Shawn Pokharel |300062001|**Dev 1:** Activity Connectivity and UML Diagram **Dev 2:** UML Diagram  **Dev 3:** UML Diagram  **Dev 4:** UML Diagram |
 
 ## Application Screenshots
 
